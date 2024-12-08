@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head{
+  background-color: orange;
+  padding: 2rem;
+  text-align: center;
+}
+
+form{
+  background-color: lightcoral;
+  padding: 1rem;
+  gap: 1rem;
+  font-weight: 600;
+  /* color: #fff; */
+}
+
+.select-container{
+  padding: 0.3em 0.3em 0.3em 1em;
+  background-color: white;
+  border-radius: 8px;
+}
+
+select{
+  border: none;
+  outline: none;
+}
+
+.packlist{
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  color: #fff;
+  padding: 2em 4rem;
+  background-color: #4e2515;
+}
+
+.sort-action{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: auto;
+}
+
+.sort{
+  border-radius: 10px;
+  border: none;
+  font-size: 0.7em;
+}
+
+ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+li{
+  display: inline-flex;
+  gap: 5px;
+}
+
+.btn{
+  padding: 0;
+  background-color: transparent;
+  color: #fff;
+  margin-left: 5px;
+  outline: none;
+}
+
+footer{
+  text-align: center;
+  padding: 1em 0;
+  font-weight: 600;
+  background-color: aquamarine;
+}
+
